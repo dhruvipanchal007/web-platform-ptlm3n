@@ -22,3 +22,59 @@ body {
   padding: 40px;
   border-radius: 20px;
 }
+.brand-logo{
+  background-image: url(https://img.icons8.com/color/100/000000/twitter--v2.png);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+.brand-title{
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #1DA1F2;
+  letter-spacing: 1px;
+}
+.input{
+  margin-top: 30px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.label{
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+.label-2{
+  margin-top: 12px;
+}
+.text{
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border: none;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  border-radius: 50px;
+}
+.btn{
+  color: white;
+  background-color: #1DA1F2;
+  margin-top: 20px;
+  height: 40px;
+  width: 270px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
